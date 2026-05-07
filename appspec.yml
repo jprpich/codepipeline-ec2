@@ -2,9 +2,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: index.html
+  - source: /
     destination: /usr/share/nginx/html
-    overwrite: yes
 
 hooks:
   AfterInstall:
