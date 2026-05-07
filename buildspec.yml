@@ -3,8 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "No build needed"
+      - echo "Packaging application"
 
 artifacts:
   files:
     - '**/*'
+  discard-paths: no
